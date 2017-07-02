@@ -1,0 +1,80 @@
+body {
+  background: #121212;
+  color: goldenrod;
+  text-align: center;
+  padding-bottom: 200px;
+  font-size: 16px;
+}
+
+#freqs-out {
+  overflow-x: scroll;
+  background: transparent;
+  
+}
+
+#freqs-out:empty {
+  overflow: hidden;
+}
+
+.wrapper {
+  display: inline-block;
+  width: 700px;
+}
+
+h1 {
+  text-align: center;
+}
+
+hr {
+  border-color: goldenrod;
+}
+
+
+input {
+  background: transparent; 
+  border: none; 
+  box-shadow: none;
+  border-bottom: 1px solid goldenrod;
+}
+
+button {
+  background: transparent;
+  box-sizing: border-box;
+  display: inline-block;  
+  width: 170px;
+  text-align: center;
+  padding: 10px;
+  border: 5px double goldenrod;
+  margin: 30px;
+}
+
+.freqs-out {
+  padding: 50px;
+}
+
+.bar {
+  fill: gold;
+  stroke:goldenrod;
+  stroke-width: 5;
+}
+
+.bar:hover{
+  fill: orangered;
+}
+
+
+.text-frequency, .text-num {
+  font-size: 16px;
+  font-weight: bold;
+  
+}
+
+.text-frequency {
+  text-anchor: middle;
+  fill:white;
+}
+
+.text-num {
+  text-anchor: bottom;
+  fill: red;
+}
